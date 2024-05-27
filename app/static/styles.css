@@ -102,25 +102,25 @@ body {
     color: #007aff;
 }
 
-.experience-item, .education-item, .project-item {
+.experience-item, .education-item, .project-item, .certification-item {
     margin-bottom: 1.5rem; /* Adjusted margin-bottom */
     text-align: left;
     animation: fadeInUp 1.5s ease-in-out;
 }
 
-.experience-item h3, .education-item h3, .project-item h3 {
+.experience-item h3, .education-item h3, .project-item h3, .certification-item h3 {
     font-size: 1.75rem; /* Adjusted font size */
     margin-bottom: 0.5rem;
     color: #007aff; /* Blue header */
 }
 
-.experience-item h4, .education-item h4, .project-item p {
+.experience-item h4, .education-item h4, .project-item p, .certification-item p {
     font-size: 1.25rem; /* Adjusted font size */
     margin-bottom: 0.5rem;
     color: #333;
 }
 
-.experience-item p, .education-item p, .project-item p {
+.experience-item p, .education-item p, .project-item p, .certification-item p {
     font-size: 1.1rem; /* Adjusted font size */
     color: #333;
 }
@@ -180,7 +180,7 @@ footer {
         font-size: 1rem; /* Adjusted font size for mobile */
     }
     
-    .experience-item h3, .education-item h3, .project-item h3, .experience-item h4, .education-item h4, .project-item p {
+    .experience-item h3, .education-item h3, .project-item h3, .certification-item h3, .experience-item h4, .education-item h4, .project-item p, .certification-item p {
         font-size: 1.5rem; /* Adjusted font size for mobile */
     }
     
