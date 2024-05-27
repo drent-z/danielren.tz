@@ -7,7 +7,7 @@
 
 ## Project Description
 
-This is a personal portfolio website my Daniel Rentz, showcasing my experience, education, certifications, and skills.
+This is a personal portfolio website showcasing my experience, education, certifications, and skills. Check it out at danielren.tz.
 
 ## License
 
