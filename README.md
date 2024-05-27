@@ -7,7 +7,7 @@
 
 ## Project Description
 
-This is a personal portfolio website showcasing my experience, education, certifications, and skills. Check it out at danielren.tz.
+This is a personal portfolio website showcasing my experience, education, certifications, and skills. Check it out at https://danielren.tz.
 
 ## License
 
