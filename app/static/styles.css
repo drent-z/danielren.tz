@@ -9,7 +9,7 @@ body {
 
 header {
     background: linear-gradient(90deg, #4b6cb7, #182848); /* Blue gradient */
-    padding: 1rem 0;
+    padding: 0.5rem 0; /* Thinner padding */
     text-align: center;
 }
 
@@ -34,19 +34,19 @@ header nav ul li a {
     background: linear-gradient(180deg, #1f4037, #99f2c8); /* Green gradient */
     color: #fff;
     text-align: center;
-    padding: 10rem 0; /* Increased padding */
+    padding: 8rem 0; /* Adjusted padding */
     animation: fadeIn 2s ease-in-out;
     position: relative;
 }
 
 .hero h1 {
-    font-size: 4rem; /* Increased font size */
+    font-size: 3.5rem; /* Adjusted font size */
     margin: 0;
     animation: slideInFromLeft 1s ease-in-out;
 }
 
 .hero p {
-    font-size: 1.75rem; /* Increased font size */
+    font-size: 1.5rem; /* Adjusted font size */
     margin: 1rem 0;
     animation: slideInFromRight 1s ease-in-out;
 }
@@ -54,16 +54,16 @@ header nav ul li a {
 .hero .cta-button {
     background-color: #007aff; /* Blue button */
     color: #fff;
-    padding: 1rem 2rem;
-    font-size: 1.5rem; /* Increased font size */
+    padding: 0.75rem 1.5rem; /* Adjusted padding */
+    font-size: 1.25rem; /* Adjusted font size */
     border-radius: 8px;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-top: 3rem; /* Added margin-top */
+    margin-top: 2rem; /* Adjusted margin-top */
     animation: fadeInUp 2s ease-in-out;
     display: inline-block;
     position: relative;
-    top: 2rem; /* Adjust top position */
+    top: 1rem; /* Adjust top position */
 }
 
 .hero .cta-button:hover {
@@ -72,22 +72,22 @@ header nav ul li a {
 }
 
 .section {
-    padding: 5rem 0;
+    padding: 3rem 0; /* Reduced padding */
     margin: 0 auto;
-    max-width: 1200px; /* Increased max-width */
+    max-width: 1000px; /* Adjusted max-width */
     text-align: center;
     animation: slideUp 1s ease-in-out;
 }
 
 .section h2 {
-    font-size: 3rem; /* Increased font size */
-    margin-bottom: 2rem;
+    font-size: 2.5rem; /* Adjusted font size */
+    margin-bottom: 1.5rem; /* Adjusted margin-bottom */
     color: #000;
     animation: fadeIn 1s ease-in-out;
 }
 
 .section p {
-    font-size: 1.25rem; /* Increased font size */
+    font-size: 1.1rem; /* Adjusted font size */
     line-height: 1.6;
     color: #333;
     animation: fadeIn 1s ease-in-out;
@@ -103,14 +103,14 @@ header nav ul li a {
 }
 
 .skills-list li {
-    flex: 1 0 30%;
+    flex: 1 0 45%; /* Adjusted flex-basis */
     margin: 0.5rem;
-    padding: 1.5rem; /* Increased padding */
+    padding: 1rem; /* Adjusted padding */
     background-color: #e0e0e0;
     border-radius: 8px;
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem; /* Adjusted font size */
     color: #333;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
@@ -126,19 +126,19 @@ header nav ul li a {
 }
 
 .experience-item {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem; /* Adjusted margin-bottom */
     text-align: left;
     animation: fadeInUp 1.5s ease-in-out;
 }
 
 .experience-item h3 {
-    font-size: 2rem; /* Increased font size */
+    font-size: 1.75rem; /* Adjusted font size */
     margin-bottom: 0.5rem;
     color: #007aff; /* Blue header */
 }
 
 .experience-item p {
-    font-size: 1.25rem;
+    font-size: 1.1rem; /* Adjusted font size */
     color: #333;
 }
 
@@ -150,7 +150,7 @@ header nav ul li a {
 
 .separator {
     width: 80%;
-    margin: 2rem auto;
+    margin: 1rem auto; /* Reduced margin */
     border-bottom: 1px solid #ddd;
 }
 
@@ -158,50 +158,50 @@ footer {
     background: linear-gradient(90deg, #4b6cb7, #182848); /* Blue gradient */
     color: #fff;
     text-align: center;
-    padding: 2rem 0;
-    margin-top: 4rem;
+    padding: 1rem 0; /* Thinner padding */
+    margin-top: 2rem; /* Reduced margin-top */
 }
 
 @media (max-width: 768px) {
     .hero {
-        padding: 8rem 1rem;
+        padding: 6rem 1rem; /* Adjusted padding for mobile */
     }
     
     .hero h1 {
-        font-size: 3rem;
+        font-size: 3rem; /* Adjusted font size for mobile */
     }
     
     .hero p {
-        font-size: 1.25rem;
+        font-size: 1.25rem; /* Adjusted font size for mobile */
     }
     
     .hero .cta-button {
-        font-size: 1.25rem;
+        font-size: 1.25rem; /* Adjusted font size for mobile */
     }
     
     .section {
-        padding: 3rem 1rem;
+        padding: 2rem 1rem; /* Adjusted padding for mobile */
     }
     
     .section h2 {
-        font-size: 2.5rem;
+        font-size: 2rem; /* Adjusted font size for mobile */
     }
     
     .section p {
-        font-size: 1rem;
+        font-size: 1rem; /* Adjusted font size for mobile */
     }
     
     .skills-list li {
-        flex: 1 0 45%;
-        font-size: 1rem;
+        flex: 1 0 90%; /* Adjusted flex-basis for mobile */
+        font-size: 1rem; /* Adjusted font size for mobile */
     }
     
     .experience-item h3 {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* Adjusted font size for mobile */
     }
     
     .experience-item p, .experience-item ul {
-        font-size: 1rem;
+        font-size: 1rem; /* Adjusted font size for mobile */
     }
 }
 
