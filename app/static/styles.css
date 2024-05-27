@@ -34,7 +34,7 @@ header nav ul li a {
     background: linear-gradient(180deg, #1f4037, #99f2c8); /* Green gradient */
     color: #fff;
     text-align: center;
-    padding: 12rem 0; /* Increased padding */
+    padding: 10rem 0; /* Increased padding */
     animation: fadeIn 2s ease-in-out;
     position: relative;
 }
@@ -52,7 +52,7 @@ header nav ul li a {
 }
 
 .hero .cta-button {
-    background-color: #ff4081; /* Pink button */
+    background-color: #007aff; /* Blue button */
     color: #fff;
     padding: 1rem 2rem;
     font-size: 1.5rem; /* Increased font size */
@@ -67,7 +67,7 @@ header nav ul li a {
 }
 
 .hero .cta-button:hover {
-    background-color: #e91e63;
+    background-color: #005bb5;
     transform: scale(1.05);
 }
 
@@ -134,7 +134,7 @@ header nav ul li a {
 .experience-item h3 {
     font-size: 2rem; /* Increased font size */
     margin-bottom: 0.5rem;
-    color: #4b6cb7; /* Blue header */
+    color: #007aff; /* Blue header */
 }
 
 .experience-item p {
@@ -148,12 +148,61 @@ header nav ul li a {
     color: #333;
 }
 
+.separator {
+    width: 80%;
+    margin: 2rem auto;
+    border-bottom: 1px solid #ddd;
+}
+
 footer {
     background: linear-gradient(90deg, #4b6cb7, #182848); /* Blue gradient */
     color: #fff;
     text-align: center;
     padding: 2rem 0;
     margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 8rem 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .hero p {
+        font-size: 1.25rem;
+    }
+    
+    .hero .cta-button {
+        font-size: 1.25rem;
+    }
+    
+    .section {
+        padding: 3rem 1rem;
+    }
+    
+    .section h2 {
+        font-size: 2.5rem;
+    }
+    
+    .section p {
+        font-size: 1rem;
+    }
+    
+    .skills-list li {
+        flex: 1 0 45%;
+        font-size: 1rem;
+    }
+    
+    .experience-item h3 {
+        font-size: 1.5rem;
+    }
+    
+    .experience-item p, .experience-item ul {
+        font-size: 1rem;
+    }
 }
 
 @keyframes fadeIn {
