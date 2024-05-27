@@ -1,5 +1,5 @@
 body {
-    font-family: 'SF Rounded', sans-serif;
+    font-family: 'SF Pro Rounded', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
@@ -28,25 +28,54 @@ header nav ul li a {
     font-size: 1.2rem;
 }
 
-.section {
-    padding: 2rem;
-    margin: 2rem auto;
-    max-width: 800px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.hero {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
 }
 
-.section h1,
-.section h2 {
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.hero .cta-button {
+    background-color: #007aff;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: #005bb5;
+}
+
+.section {
+    padding: 4rem 0;
+    margin: 0 auto;
+    max-width: 1000px;
     text-align: center;
-    margin-bottom: 1rem;
-    font-size: 2rem;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #000;
 }
 
 .section p {
     font-size: 1.1rem;
     line-height: 1.6;
+    color: #333;
 }
 
 .skills-list {
@@ -55,41 +84,52 @@ header nav ul li a {
     justify-content: center;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .skills-list li {
-    flex: 1 0 45%;
+    flex: 1 0 30%;
     margin: 0.5rem;
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: #e0e0e0;
     border-radius: 8px;
     display: flex;
     align-items: center;
+    font-size: 1.2rem;
+    color: #333;
 }
 
 .skills-list li i.icon {
     margin-right: 0.5rem;
+    color: #007aff;
 }
 
 .experience-item {
     margin-bottom: 2rem;
+    text-align: left;
 }
 
 .experience-item h3 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-bottom: 0.5rem;
+    color: #007aff;
+}
+
+.experience-item p {
+    font-size: 1.25rem;
+    color: #333;
 }
 
 .experience-item ul {
     list-style: disc inside;
+    padding-left: 1rem;
+    color: #333;
 }
 
 footer {
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 2rem 0;
+    margin-top: 4rem;
 }
