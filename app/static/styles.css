@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    background: linear-gradient(90deg, #4b6cb7, #182848); /* Blue gradient */
     padding: 1rem 0;
     text-align: center;
 }
@@ -31,35 +31,36 @@ header nav ul li a {
 }
 
 .hero {
-    background: linear-gradient(180deg, #000428, #004e92);
+    background: linear-gradient(180deg, #1f4037, #99f2c8); /* Green gradient */
     color: #fff;
     text-align: center;
-    padding: 5rem 0;
+    padding: 8rem 0; /* Increased padding */
     animation: fadeIn 2s ease-in-out;
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 3.5rem; /* Increased font size */
     margin: 0;
 }
 
 .hero p {
-    font-size: 1.5rem;
+    font-size: 1.75rem; /* Increased font size */
     margin: 1rem 0;
 }
 
 .hero .cta-button {
-    background-color: #007aff;
+    background-color: #ff4081; /* Pink button */
     color: #fff;
     padding: 1rem 2rem;
     font-size: 1.25rem;
     border-radius: 8px;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 2rem; /* Added margin-top */
 }
 
 .hero .cta-button:hover {
-    background-color: #005bb5;
+    background-color: #e91e63;
     transform: scale(1.05);
 }
 
@@ -124,7 +125,7 @@ header nav ul li a {
 .experience-item h3 {
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
-    color: #007aff;
+    color: #4b6cb7; /* Blue header */
 }
 
 .experience-item p {
@@ -139,7 +140,7 @@ header nav ul li a {
 }
 
 footer {
-    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    background: linear-gradient(90deg, #4b6cb7, #182848); /* Blue gradient */
     color: #fff;
     text-align: center;
     padding: 2rem 0;
