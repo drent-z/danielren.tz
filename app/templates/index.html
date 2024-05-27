@@ -1,78 +1,83 @@
-{% extends "layout.html" %}
-
-{% block content %}
-<div class="hero">
-    <h1>Daniel Rentz</h1>
-    <p>IT Help Desk Support | Cybersecurity Enthusiast</p>
-    <a class="cta-button" href="#contact">Get in Touch</a>
-</div>
-
-<div class="container">
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>Welcome to my personal portfolio. I am passionate about IT support and cybersecurity. With experience in providing technical support and a strong educational background, I am equipped to tackle challenges in the field of cybersecurity.</p>
-    </section>
-
-    <section id="skills" class="section">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li><i class="material-icons">code</i> Python</li>
-            <li><i class="material-icons">code</i> Java</li>
-            <li><i class="material-icons">code</i> C</li>
-            <li><i class="material-icons">code</i> C++</li>
-            <li><i class="material-icons">code</i> JavaScript</li>
-            <li><i class="material-icons">code</i> HTML & CSS</li>
-            <li><i class="material-icons">security</i> Network Security</li>
-            <li><i class="material-icons">computer</i> Technical Troubleshooting</li>
-            <li><i class="material-icons">build</i> Equipment Maintenance</li>
-            <li><i class="material-icons">chat</i> Effective Communication</li>
-        </ul>
-    </section>
-
-    <section id="experience" class="section">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3>IT Help Desk Support</h3>
-            <h4>CyberIQ, Jun 2023 – Present</h4>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Rentz - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
             <ul>
-                <li>Provided IT support for Microsoft’s core business applications and operating systems</li>
-                <li>Knowledgeable in disaster recovery solutions</li>
-                <li>Monitored system alerts and responded accordingly to customer needs</li>
-                <li>Worked independently on tasks as needed by customers</li>
-                <li>Maintained system documentation and reviewed it to fulfill customer requirements</li>
-                <li>Communicated with customers to keep them informed of incident progress and provided solutions</li>
-                <li>Troubleshot multiple computer & mobile device platforms: Mac, Windows, Linux, iOS & Android</li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-        <div class="experience-item">
-            <h3>Client Support Specialist</h3>
-            <h4>NFC Amenity Management, Mar 2022 – Sep 2022</h4>
-            <ul>
-                <li>Managed front desk operations, addressing technical and non-technical inquiries</li>
-                <li>Coordinated scheduling and access for prospects, realtors, and contractors</li>
-                <li>Maintained documentation of visitor logs, incident reports, and operational procedures</li>
-                <li>Interacted with property management and residents using various communication platforms</li>
-                <li>Provided swift responses to unexpected situations, leveraging problem-solving skills</li>
-                <li>Inspected technical equipment and facilities, initiated service requests, and followed up on resolutions</li>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <h1>Daniel Rentz</h1>
+            <p>Welcome to my personal portfolio. I am passionate about IT support and cybersecurity. Currently working towards my HTB CPTS certification on HackTheBox, I aim to become a skilled penetration tester. With experience in providing technical support and a strong educational background, I am equipped to tackle challenges in the field of cybersecurity.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li><i class="icon">💻</i> Python</li>
+                <li><i class="icon">💻</i> Java</li>
+                <li><i class="icon">💻</i> C</li>
+                <li><i class="icon">💻</i> C++</li>
+                <li><i class="icon">💻</i> JavaScript</li>
+                <li><i class="icon">💻</i> HTML & CSS</li>
+                <li><i class="icon">🔒</i> Network Security</li>
+                <li><i class="icon">🛠️</i> Technical Troubleshooting</li>
+                <li><i class="icon">🛠️</i> Equipment Maintenance</li>
+                <li><i class="icon">💬</i> Effective Communication</li>
+                <li><i class="icon">💻</i> PowerShell</li>
             </ul>
-        </div>
-    </section>
+        </section>
 
-    <section id="education" class="section">
-        <h2>Education</h2>
-        <p><strong>Associate in Arts, Computer Information Systems</strong> - Miami Dade College (Jun 2022 – Dec 2023)</p>
-        <p><strong>Bachelor of Science, Cybersecurity</strong> - Florida International University (Jan 2024 – Apr 2025)</p>
-    </section>
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>IT Help Desk Support / CyberIQ</h3>
+                <p><strong>Jun 2023 – Present</strong></p>
+                <ul>
+                    <li>IT Support relating to technical issues involving Microsoft’s core business applications and operating systems</li>
+                    <li>Knowledge of disaster recovery solutions</li>
+                    <li>Monitoring the remote monitoring and management system alerts and notifications and respond accordingly through customers need</li>
+                    <li>Ability to independently work on tasks as needed by customers</li>
+                    <li>System documentation maintenance and review to fulfill customers</li>
+                    <li>Communication with customers as required: keeping them informed of incident progress, notifying them of impending changes, and providing solutions</li>
+                    <li>Troubleshooting multiple computer & mobile device platforms: Mac, Windows, Linux, iOS & Android</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Client Support Specialist / NFC Amenity Management</h3>
+                <p><strong>Mar 2022 – Sep 2022</strong></p>
+                <ul>
+                    <li>Managed front desk operations, ensuring top-tier service by efficiently addressing technical and non-technical inquiries</li>
+                    <li>Coordinated the scheduling and access for prospects, realtors, and contractors</li>
+                    <li>Maintained rigorous documentation of visitor logs, incident reports, and operational procedures</li>
+                    <li>Utilized a variety of communication platforms to interact with property management and residents</li>
+                    <li>Provided swift and effective responses to unexpected situations, leveraging problem-solving skills relevant to network troubleshooting and support</li>
+                    <li>Regularly inspected technical equipment and facilities, initiating service requests, and following up on resolutions</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="certifications" class="section">
-        <h2>Certifications</h2>
-        <p>CompTIA Network+ - Dec 2023</p>
-        <p>CompTIA Security+ - Mar 2024</p>
-    </section>
-
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>If you would like to get in touch, please <a href="mailto:danielrentz27@gmail.com">Email me</a>.</p>
-    </section>
-</div>
-{% endblock %}
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:danielrentz27@gmail.com">Email</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/drentz">linkedin.com/in/drentz</a></p>
+            <p>GitHub: <a href="https://github.com/drent-z">github.com/drent-z</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Daniel Rentz</p>
+    </footer>
+</body>
+</html>
