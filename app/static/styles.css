@@ -1,14 +1,15 @@
 :root {
-    --primary-color: #00ff00;
-    --secondary-color: #ff00ff;
-    --background-color: #000;
-    --text-color: #fff;
+    --primary-color: #6200ea;
+    --secondary-color: #03dac6;
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --card-bg: #1e1e1e;
     --navbar-bg: #1a1a1a;
     --footer-bg: #1a1a1a;
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
@@ -19,8 +20,6 @@ body {
 
 header {
     background-color: var(--navbar-bg);
-    padding: 1rem;
-    text-align: center;
 }
 
 .navbar {
@@ -29,16 +28,9 @@ header {
     align-items: center;
 }
 
-.navbar-brand {
-    color: var(--primary-color);
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2rem;
-    transition: color 0.3s ease;
-}
-
-.navbar-brand:hover {
-    color: var(--secondary-color);
+.mdc-top-app-bar {
+    background-color: var(--navbar-bg);
+    color: var(--text-color);
 }
 
 .hero {
@@ -46,20 +38,18 @@ header {
     color: var(--text-color);
     padding: 5rem 1rem;
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    animation: gradientBG 15s ease infinite;
     border-bottom: 4px solid var(--navbar-bg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 {
     font-size: 4rem;
     font-weight: 700;
     margin: 0;
-    animation: slideInLeft 1s ease-out;
 }
 
 .hero p {
     font-size: 2rem;
-    animation: slideInRight 1s ease-out;
 }
 
 .hero .cta-button {
@@ -81,30 +71,29 @@ header {
 
 .container {
     padding: 3rem;
-    animation: fadeIn 1.5s ease-out;
 }
 
 section {
     margin-bottom: 3rem;
 }
 
+.mdc-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.mdc-card:hover {
+    transform: translateY(-5px);
+}
+
 h2 {
     color: var(--primary-color);
     font-size: 2.5rem;
-    border-bottom: 2px solid var(--primary-color);
-    padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
     position: relative;
-}
-
-h2:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -0.5rem;
-    width: 50px;
-    height: 4px;
-    background-color: var(--secondary-color);
 }
 
 .skills-list {
@@ -132,19 +121,6 @@ h2:after {
     transform: scale(1.1);
 }
 
-.experience-item, .education-item, .certification-item {
-    background-color: var(--navbar-bg);
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-    transition: transform 0.3s ease;
-}
-
-.experience-item:hover, .education-item:hover, .certification-item:hover {
-    transform: translateY(-10px);
-}
-
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -160,41 +136,5 @@ footer {
     color: var(--text-color);
     padding: 2rem 0;
     text-align: center;
-}
-
-@keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-@keyframes slideInLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(100%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
 }
