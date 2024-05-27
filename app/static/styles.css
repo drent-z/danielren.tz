@@ -7,30 +7,6 @@ body {
     scroll-behavior: smooth;
 }
 
-header {
-    background: linear-gradient(90deg, #4b6cb7, #182848); /* Blue gradient */
-    padding: 0.3rem 0; /* Thinner padding */
-    text-align: center;
-    font-size: 0.9rem; /* Reduced font size */
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 0.5rem; /* Reduced margin */
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem; /* Reduced font size */
-}
-
 .hero {
     background: linear-gradient(180deg, #1f4037, #99f2c8); /* Green gradient */
     color: #fff;
@@ -138,6 +114,12 @@ header nav ul li a {
     color: #007aff; /* Blue header */
 }
 
+.experience-item h4, .education-item h4 {
+    font-size: 1.25rem; /* Adjusted font size */
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
 .experience-item p, .education-item p {
     font-size: 1.1rem; /* Adjusted font size */
     color: #333;
@@ -198,7 +180,7 @@ footer {
         font-size: 1rem; /* Adjusted font size for mobile */
     }
     
-    .experience-item h3, .education-item h3 {
+    .experience-item h3, .education-item h3, .experience-item h4, .education-item h4 {
         font-size: 1.5rem; /* Adjusted font size for mobile */
     }
     
