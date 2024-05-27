@@ -62,8 +62,26 @@ header {
     animation: slideInRight 1s ease-out;
 }
 
+.hero .cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: var(--secondary-color);
+}
+
 .container {
     padding: 3rem;
+    animation: fadeIn 1.5s ease-out;
 }
 
 section {
@@ -169,5 +187,14 @@ footer {
     100% {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
